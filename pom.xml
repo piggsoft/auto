@@ -10,7 +10,8 @@
     <modules>
         <module>config-server</module>
         <module>discovery-server</module>
-        <module>operator</module>
+        <module>operator-provider</module>
+        <module>content-provider</module>
     </modules>
     <packaging>pom</packaging>
 
