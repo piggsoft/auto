@@ -1,6 +1,6 @@
 spring:
   application:
-    name: operator
+    name: operator-provider
   cloud:
     config:
       profile: dev
