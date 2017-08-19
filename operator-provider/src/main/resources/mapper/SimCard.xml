@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.piggsoft.auto.operator.mapper.SimCardMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.piggsoft.auto.operator.entity.SimCard">
+		<id column="id" property="id" />
+		<result column="imsi" property="imsi" />
+		<result column="card_no" property="cardNo" />
+		<result column="iccid" property="iccid" />
+		<result column="operator_id" property="operatorId" />
+	</resultMap>
+
+</mapper>
